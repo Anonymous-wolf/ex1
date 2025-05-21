@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.click-box {
+  width: 300px;
+  height: 200px;
+  margin: 2rem auto;
+  border: 3px dashed #007bff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #f0f8ff;
+  transition: background-color 0.2s;
+}
+
+.click-box:hover {
+  background-color: #e6f2ff;
+}
